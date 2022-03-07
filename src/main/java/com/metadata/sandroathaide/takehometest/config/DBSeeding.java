@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Profile;
 import java.util.Arrays;
 
 @Configuration
-//@Profile("dev")
+@Profile("dev")
 public class DBSeeding {
 
     @Autowired
